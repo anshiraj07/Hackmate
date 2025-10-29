@@ -20,17 +20,18 @@ Think **Tinder for Hackathons** — swipe, match, and team up for your next big 
 
 ## 📁 Folder Structure
 
+```bash
 hackmate/
-├── client/ # Frontend (React + Vite)
-│ ├── src/ # Components, pages, logic
-│ ├── package.json # Frontend dependencies
-│ ├── tailwind.config.js # Tailwind setup
-│ └── vite.config.ts # Vite configuration
+├── client/                 # Frontend (React + Vite)
+│   ├── src/                # Components, pages, logic
+│   ├── package.json        # Frontend dependencies
+│   ├── tailwind.config.js  # Tailwind setup
+│   └── vite.config.ts      # Vite configuration
 │
-├── server/ # Backend (Express + MongoDB)
-│ ├── src/ # Routes, controllers, models
-│ ├── supabase/ # Auth / migration files
-│ └── package.json # Backend dependencies
+├── server/                 # Backend (Express + MongoDB)
+│   ├── src/                # Routes, controllers, models
+│   ├── supabase/           # Auth / migration files
+│   └── package.json        # Backend dependencies
 │
 ├── README.md
 └── .gitignore
@@ -108,4 +109,5 @@ If you have ideas to make HackMate even cooler, feel free to fork, tweak, and op
 🧡 Acknowledgements
 Built with caffeine ☕, curiosity 🤓, and a lot of late-night debugging.
 Made for hackers who believe in “Build. Break. Repeat.”
+
 
